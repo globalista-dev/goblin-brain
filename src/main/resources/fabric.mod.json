@@ -2,40 +2,33 @@
 	"schemaVersion": 1,
 	"id": "modid",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Goblin Brain",
+	"description": "Simple mod to add more ores and materials because Mythic Metals refuses to work server-side due to Owolib's stupid client handshake",
 	"authors": [
-		"Me!"
+		"yGlobalista"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/goblinbrain/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
+		"fabric-datagen": [
+			"com.globalista.data.GData"
 		],
-		"client": [
-			"com.example.ExampleModClient"
+		"main": [
+			"com.globalista.GoblinBrain"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"goblinbrain.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

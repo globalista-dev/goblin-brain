@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "goblinbrain:copper_dust"
+    },
+    "b": {
+      "item": "goblinbrain:tin_dust"
+    }
+  },
+  "pattern": [
+    "aab"
+  ],
+  "result": {
+    "item": "goblinbrain:raw_bronze_dust"
+  },
+  "show_notification": true
+}

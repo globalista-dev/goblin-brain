@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "goblinbrain:block/ruby_block"
+    }
+  }
+}

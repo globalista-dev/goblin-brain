@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "goblinbrain:iron_dust"
+    },
+    "b": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "ab"
+  ],
+  "result": {
+    "item": "goblinbrain:raw_steel_dust"
+  },
+  "show_notification": true
+}

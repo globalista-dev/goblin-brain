@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "goblinbrain:gold_dust"
+    },
+    "m": {
+      "item": "goblinbrain:mythril_dust"
+    },
+    "n": {
+      "item": "goblinbrain:netherite_dust"
+    },
+    "s": {
+      "item": "goblinbrain:silver_dust"
+    },
+    "t": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "gms",
+    "ntn",
+    "smg"
+  ],
+  "result": {
+    "item": "goblinbrain:raw_hallowed_dust"
+  },
+  "show_notification": true
+}

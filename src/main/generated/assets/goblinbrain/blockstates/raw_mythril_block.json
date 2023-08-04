@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "goblinbrain:block/raw_mythril_block"
+    }
+  }
+}
