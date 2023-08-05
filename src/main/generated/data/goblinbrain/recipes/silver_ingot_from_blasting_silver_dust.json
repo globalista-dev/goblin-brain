@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.0,
+  "group": "dust_resmelting",
+  "ingredient": {
+    "item": "goblinbrain:silver_dust"
+  },
+  "result": "goblinbrain:silver_ingot"
+}

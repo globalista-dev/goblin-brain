@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "alloy_smelting",
+  "ingredient": {
+    "item": "goblinbrain:raw_bronze_dust"
+  },
+  "result": "goblinbrain:bronze_ingot"
+}

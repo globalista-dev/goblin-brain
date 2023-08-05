@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "goblinbrain",
 	"version": "${version}",
 	"name": "Goblin Brain",
 	"description": "Simple mod to add more ores and materials because Mythic Metals refuses to work server-side due to Owolib's stupid client handshake",

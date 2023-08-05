@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    },
+    {
+      "item": "goblinbrain:silver_block"
+    }
+  ],
+  "result": {
+    "item": "goblinbrain:silver_ingot"
+  }
+}

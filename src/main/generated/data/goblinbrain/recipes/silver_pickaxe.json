@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "item": "goblinbrain:silver_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "mmm",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "goblinbrain:silver_pickaxe"
+  },
+  "show_notification": true
+}

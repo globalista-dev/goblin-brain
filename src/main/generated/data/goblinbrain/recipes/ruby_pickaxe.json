@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "item": "goblinbrain:ruby"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "mmm",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "goblinbrain:ruby_pickaxe"
+  },
+  "show_notification": true
+}

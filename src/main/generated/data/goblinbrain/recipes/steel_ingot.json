@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    },
+    {
+      "item": "goblinbrain:steel_block"
+    }
+  ],
+  "result": {
+    "item": "goblinbrain:steel_ingot"
+  }
+}

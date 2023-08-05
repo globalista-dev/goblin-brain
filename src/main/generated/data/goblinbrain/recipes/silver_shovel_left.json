@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "item": "goblinbrain:silver_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "m  ",
+    "s  ",
+    "s  "
+  ],
+  "result": {
+    "item": "goblinbrain:silver_shovel"
+  },
+  "show_notification": true
+}

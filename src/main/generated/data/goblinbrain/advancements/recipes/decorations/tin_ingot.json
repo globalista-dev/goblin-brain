@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "goblinbrain:tin_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tin_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goblinbrain:tin_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tin_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "goblinbrain:tin_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

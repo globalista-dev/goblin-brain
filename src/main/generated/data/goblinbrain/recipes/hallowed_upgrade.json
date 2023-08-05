@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "h": {
+      "item": "goblinbrain:hallowed_ingot"
+    },
+    "r": {
+      "item": "goblinbrain:ruby"
+    }
+  },
+  "pattern": [
+    "ghg",
+    "hrh",
+    "ghg"
+  ],
+  "result": {
+    "item": "goblinbrain:hallowed_upgrade"
+  },
+  "show_notification": true
+}

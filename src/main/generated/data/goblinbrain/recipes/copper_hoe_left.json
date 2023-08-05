@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": {
+      "item": "minecraft:copper_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "mm ",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "item": "goblinbrain:copper_hoe"
+  },
+  "show_notification": true
+}

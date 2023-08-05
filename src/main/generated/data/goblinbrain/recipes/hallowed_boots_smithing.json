@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "goblinbrain:hallowed_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "item": "goblinbrain:hallowed_boots"
+  },
+  "template": {
+    "item": "goblinbrain:hallowed_upgrade"
+  }
+}

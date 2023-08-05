@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    },
+    {
+      "item": "goblinbrain:hallowed_block"
+    }
+  ],
+  "result": {
+    "item": "goblinbrain:hallowed_ingot"
+  }
+}

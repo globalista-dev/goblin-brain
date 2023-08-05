@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.0,
+  "group": "dust_resmelting",
+  "ingredient": {
+    "item": "goblinbrain:mythril_dust"
+  },
+  "result": "goblinbrain:mythril_ingot"
+}

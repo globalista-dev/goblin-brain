@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.45,
+  "group": "silver",
+  "ingredient": {
+    "item": "goblinbrain:silver_ore"
+  },
+  "result": "goblinbrain:silver_ingot"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    },
+    {
+      "item": "goblinbrain:mythril_block"
+    }
+  ],
+  "result": {
+    "item": "goblinbrain:mythril_ingot"
+  }
+}

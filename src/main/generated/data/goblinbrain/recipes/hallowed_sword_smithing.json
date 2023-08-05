@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "goblinbrain:hallowed_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "goblinbrain:hallowed_sword"
+  },
+  "template": {
+    "item": "goblinbrain:hallowed_upgrade"
+  }
+}

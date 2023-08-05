@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "dust_resmelting",
+  "ingredient": {
+    "item": "goblinbrain:copper_dust"
+  },
+  "result": "minecraft:copper_ingot"
+}

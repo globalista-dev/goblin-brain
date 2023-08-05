@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.5,
+  "group": "alloy_smelting",
+  "ingredient": {
+    "item": "goblinbrain:raw_hallowed_dust"
+  },
+  "result": "goblinbrain:hallowed_ingot"
+}

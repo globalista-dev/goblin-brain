@@ -10,5 +10,8 @@ public class GData implements DataGeneratorEntrypoint {
         var data = fabricDataGenerator.createPack();
         data.addProvider(GModelProvider::new);
         data.addProvider(GRecipeProvider::new);
+        data.addProvider(GLootTableProvider::new);
+        data.addProvider(GEnUsLanguageProvider::new);
+        data.addProvider(GPtBrLanguageProvider::new);
     }
 }
