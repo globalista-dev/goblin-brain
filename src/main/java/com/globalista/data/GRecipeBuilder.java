@@ -16,7 +16,7 @@ import static net.minecraft.item.Items.STICK;
 public abstract class GRecipeBuilder {
 
     public static void offerArmorRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible material, ItemConvertible helmet, ItemConvertible chestplate, ItemConvertible leggings, ItemConvertible boots) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, helmet).pattern("iii").pattern("i i").pattern("i i").input('i', helmet)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, helmet).pattern("iii").pattern("i i").pattern("i i").input('i', material)
                 .criterion(FabricRecipeProvider.hasItem(material), conditionsFromItem(material))
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, chestplate)
@@ -95,22 +95,30 @@ public abstract class GRecipeBuilder {
     public static void offerToolsetRecipe(Consumer<RecipeJsonProvider> exporter, ItemConvertible material, ItemConvertible sword, ItemConvertible pickaxe, ItemConvertible axe, ItemConvertible shovel, ItemConvertible hoe) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, sword).pattern(" m ").pattern(" m ").pattern(" s ").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, pickaxe).pattern("mmm").pattern(" s ").pattern(" s ").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, axe).pattern(" mm").pattern(" sm").pattern(" s ").input('m', material).input('s', STICK)
-                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(axe) + "_right");
+                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, axe).pattern("mm ").pattern("ms ").pattern(" s ").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(axe) + "_left");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, shovel).pattern(" m ").pattern(" s ").pattern(" s ").input('m', material).input('s', STICK)
-                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(shovel) + "_middle");
+                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, shovel).pattern("m  ").pattern("s  ").pattern("s  ").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(shovel) + "_left");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, shovel).pattern("  m").pattern("  s").pattern("  s").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(shovel) + "_right");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, hoe).pattern(" mm").pattern(" s ").pattern(" s ").input('m', material).input('s', STICK)
                 .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(hoe) + "_right");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, hoe).pattern("mm ").pattern(" s ").pattern(" s ").input('m', material).input('s', STICK)
-                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter, getItemPath(hoe) + "_left");
+                .criterion(FabricRecipeProvider.hasItem(material), FabricRecipeProvider.conditionsFromItem(material)).offerTo(exporter);
 
     }
 

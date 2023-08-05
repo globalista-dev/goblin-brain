@@ -78,6 +78,41 @@ public class GEnUsLanguageProvider extends FabricLanguageProvider {
         t.add(RUBY_LEGGINGS, "Ruby Leggings");
         t.add(RUBY_BOOTS, "Ruby Boots");
         t.add(HALLOWED_UPGRADE, "Hallowed Upgrade");
+        t.add(COPPER_SWORD, "Copper Sword");
+        t.add(COPPER_PICKAXE, "Copper Pickaxe");
+        t.add(COPPER_AXE, "Copper Axe");
+        t.add(COPPER_SHOVEL, "Copper Shovel");
+        t.add(COPPER_HOE, "Copper Hoe");
+        t.add(SILVER_SWORD, "Silver Sword");
+        t.add(SILVER_PICKAXE, "Silver Pickaxe");
+        t.add(SILVER_AXE, "Silver Axe");
+        t.add(SILVER_SHOVEL, "Silver Shovel");
+        t.add(SILVER_HOE, "Silver Hoe");
+        t.add(MYTHRIL_SWORD, "Mythril Sword");
+        t.add(MYTHRIL_PICKAXE, "Mythril Pickaxe");
+        t.add(MYTHRIL_AXE, "Mythril Axe");
+        t.add(MYTHRIL_SHOVEL, "Mythril Shovel");
+        t.add(MYTHRIL_HOE, "Mythril Hoe");
+        t.add(BRONZE_SWORD, "Bronze Sword");
+        t.add(BRONZE_PICKAXE, "Bronze Pickaxe");
+        t.add(BRONZE_AXE, "Bronze Axe");
+        t.add(BRONZE_SHOVEL, "Bronze Shovel");
+        t.add(BRONZE_HOE, "Bronze Hoe");
+        t.add(STEEL_SWORD, "Steel Sword");
+        t.add(STEEL_PICKAXE, "Steel Pickaxe");
+        t.add(STEEL_AXE, "Steel Axe");
+        t.add(STEEL_SHOVEL, "Steel Shovel");
+        t.add(STEEL_HOE, "Steel Hoe");
+        t.add(RUBY_SWORD, "Ruby Sword");
+        t.add(RUBY_PICKAXE, "Ruby Pickaxe");
+        t.add(RUBY_AXE, "Ruby Axe");
+        t.add(RUBY_SHOVEL, "Ruby Shovel");
+        t.add(RUBY_HOE, "Ruby Hoe");
+        t.add(HALLOWED_SWORD, "Hallowed Sword");
+        t.add(HALLOWED_PICKAXE, "Hallowed Pickaxe");
+        t.add(HALLOWED_AXE, "Hallowed Axe");
+        t.add(HALLOWED_SHOVEL, "Hallowed Shovel");
+        t.add(HALLOWED_HOE, "Hallowed Hoe");
 
     }
 

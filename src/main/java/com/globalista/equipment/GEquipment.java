@@ -1,8 +1,9 @@
 package com.globalista.equipment;
 
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import com.globalista.equipment.supplier.GAxeItem;
+import com.globalista.equipment.supplier.GHoeItem;
+import com.globalista.equipment.supplier.GPickaxeItem;
+import net.minecraft.item.*;
 
 import static com.globalista.util.GRegister.GOBLINGROUP;
 import static com.globalista.util.GRegister.registerEquipment;
@@ -45,46 +46,46 @@ public class GEquipment {
     public static final Item RUBY_BOOTS = registerEquipment("ruby_boots", new ArmorItem(GArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new Item.Settings()));
 
     public static final Item COPPER_SWORD = registerEquipment("copper_sword", new SwordItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
-    public static final Item COPPER_PICKAXE = registerEquipment("copper_pickaxe", new SwordItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
-    public static final Item COPPER_AXE = registerEquipment("copper_axe", new SwordItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
+    public static final Item COPPER_PICKAXE = registerEquipment("copper_pickaxe", new GPickaxeItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
+    public static final Item COPPER_AXE = registerEquipment("copper_axe", new GAxeItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
     public static final Item COPPER_SHOVEL = registerEquipment("copper_shovel", new SwordItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
-    public static final Item COPPER_HOE = registerEquipment("copper_hoe", new SwordItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
+    public static final Item COPPER_HOE = registerEquipment("copper_hoe", new GHoeItem(GToolMaterials.COPPER, 1, -2.8F, new Item.Settings()));
 
     public static final Item SILVER_SWORD = registerEquipment("silver_sword", new SwordItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
-    public static final Item SILVER_PICKAXE = registerEquipment("silver_pickaxe", new SwordItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
-    public static final Item SILVER_AXE = registerEquipment("silver_axe", new SwordItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
-    public static final Item SILVER_SHOVEL = registerEquipment("silver_shovel", new SwordItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
-    public static final Item SILVER_HOE = registerEquipment("silver_hoe", new SwordItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
+    public static final Item SILVER_PICKAXE = registerEquipment("silver_pickaxe", new GPickaxeItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
+    public static final Item SILVER_AXE = registerEquipment("silver_axe", new GAxeItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
+    public static final Item SILVER_SHOVEL = registerEquipment("silver_shovel", new ShovelItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
+    public static final Item SILVER_HOE = registerEquipment("silver_hoe", new GHoeItem(GToolMaterials.SILVER, 1, -2.8F, new Item.Settings()));
 
     public static final Item BRONZE_SWORD = registerEquipment("bronze_sword", new SwordItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
-    public static final Item BRONZE_PICKAXE = registerEquipment("bronze_pickaxe", new SwordItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
-    public static final Item BRONZE_AXE = registerEquipment("bronze_axe", new SwordItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
-    public static final Item BRONZE_SHOVEL = registerEquipment("bronze_shovel", new SwordItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
-    public static final Item BRONZE_HOE = registerEquipment("bronze_hoe", new SwordItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
+    public static final Item BRONZE_PICKAXE = registerEquipment("bronze_pickaxe", new GPickaxeItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
+    public static final Item BRONZE_AXE = registerEquipment("bronze_axe", new GAxeItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
+    public static final Item BRONZE_SHOVEL = registerEquipment("bronze_shovel", new ShovelItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
+    public static final Item BRONZE_HOE = registerEquipment("bronze_hoe", new GHoeItem(GToolMaterials.BRONZE, 1, -2.8F, new Item.Settings()));
 
     public static final Item MYTHRIL_SWORD = registerEquipment("mythril_sword", new SwordItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
-    public static final Item MYTHRIL_PICKAXE = registerEquipment("mythril_pickaxe", new SwordItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
-    public static final Item MYTHRIL_AXE = registerEquipment("mythril_axe", new SwordItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
-    public static final Item MYTHRIL_SHOVEL = registerEquipment("mythril_shovel", new SwordItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
-    public static final Item MYTHRIL_HOE = registerEquipment("mythril_hoe", new SwordItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
+    public static final Item MYTHRIL_PICKAXE = registerEquipment("mythril_pickaxe", new GPickaxeItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
+    public static final Item MYTHRIL_AXE = registerEquipment("mythril_axe", new GAxeItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
+    public static final Item MYTHRIL_SHOVEL = registerEquipment("mythril_shovel", new ShovelItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
+    public static final Item MYTHRIL_HOE = registerEquipment("mythril_hoe", new GHoeItem(GToolMaterials.MYTHRIL, 1, -2.8F, new Item.Settings()));
 
     public static final Item STEEL_SWORD = registerEquipment("steel_sword", new SwordItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
-    public static final Item STEEL_PICKAXE = registerEquipment("steel_pickaxe", new SwordItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
-    public static final Item STEEL_AXE = registerEquipment("steel_axe", new SwordItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
-    public static final Item STEEL_SHOVEL = registerEquipment("steel_shovel", new SwordItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
-    public static final Item STEEL_HOE = registerEquipment("steel_hoe", new SwordItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
+    public static final Item STEEL_PICKAXE = registerEquipment("steel_pickaxe", new GPickaxeItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
+    public static final Item STEEL_AXE = registerEquipment("steel_axe", new GAxeItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
+    public static final Item STEEL_SHOVEL = registerEquipment("steel_shovel", new ShovelItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
+    public static final Item STEEL_HOE = registerEquipment("steel_hoe", new GHoeItem(GToolMaterials.STEEL, 1, -2.8F, new Item.Settings()));
 
     public static final Item RUBY_SWORD = registerEquipment("ruby_sword", new SwordItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
-    public static final Item RUBY_PICKAXE = registerEquipment("ruby_pickaxe", new SwordItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
-    public static final Item RUBY_AXE = registerEquipment("ruby_axe", new SwordItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
-    public static final Item RUBY_SHOVEL = registerEquipment("ruby_shovel", new SwordItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
-    public static final Item RUBY_HOE = registerEquipment("ruby_hoe", new SwordItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
+    public static final Item RUBY_PICKAXE = registerEquipment("ruby_pickaxe", new GPickaxeItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
+    public static final Item RUBY_AXE = registerEquipment("ruby_axe", new GAxeItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
+    public static final Item RUBY_SHOVEL = registerEquipment("ruby_shovel", new ShovelItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
+    public static final Item RUBY_HOE = registerEquipment("ruby_hoe", new GHoeItem(GToolMaterials.RUBY, 1, -2.8F, new Item.Settings()));
 
     public static final Item HALLOWED_SWORD = registerEquipment("hallowed_sword", new SwordItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
-    public static final Item HALLOWED_PICKAXE = registerEquipment("hallowed_pickaxe", new SwordItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
-    public static final Item HALLOWED_AXE = registerEquipment("hallowed_axe", new SwordItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
-    public static final Item HALLOWED_SHOVEL = registerEquipment("hallowed_shovel", new SwordItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
-    public static final Item HALLOWED_HOE = registerEquipment("hallowed_hoe", new SwordItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
+    public static final Item HALLOWED_PICKAXE = registerEquipment("hallowed_pickaxe", new GPickaxeItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
+    public static final Item HALLOWED_AXE = registerEquipment("hallowed_axe", new GAxeItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
+    public static final Item HALLOWED_SHOVEL = registerEquipment("hallowed_shovel", new ShovelItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
+    public static final Item HALLOWED_HOE = registerEquipment("hallowed_hoe", new GHoeItem(GToolMaterials.HALLOWED, 1, -2.8F, new Item.Settings()));
 
 
     public static void callEquipment() {

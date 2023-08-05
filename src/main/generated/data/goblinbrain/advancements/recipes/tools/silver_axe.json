@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:silver_shovel_middle"
+        "recipe": "goblinbrain:silver_axe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:silver_shovel_middle"
+      "goblinbrain:silver_axe"
     ]
   },
   "sends_telemetry_event": false

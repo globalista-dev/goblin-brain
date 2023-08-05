@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mythril_axe_right"
+        "recipe": "goblinbrain:mythril_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mythril_axe_right"
+      "goblinbrain:mythril_hoe"
     ]
   },
   "sends_telemetry_event": false

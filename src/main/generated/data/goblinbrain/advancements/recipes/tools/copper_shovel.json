@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_silver_ingot": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:silver_ingot"
+              "minecraft:copper_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:silver_hoe_left"
+        "recipe": "goblinbrain:copper_shovel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_silver_ingot",
+      "has_copper_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:silver_hoe_left"
+      "goblinbrain:copper_shovel"
     ]
   },
   "sends_telemetry_event": false

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_steel_ingot": {
+    "has_ruby": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:steel_ingot"
+              "goblinbrain:ruby"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:steel_shovel_middle"
+        "recipe": "goblinbrain:ruby_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_steel_ingot",
+      "has_ruby",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:steel_shovel_middle"
+      "goblinbrain:ruby_hoe"
     ]
   },
   "sends_telemetry_event": false

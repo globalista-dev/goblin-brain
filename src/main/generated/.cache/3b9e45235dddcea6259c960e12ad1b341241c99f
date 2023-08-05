@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-05T16:13:14.0605453	Goblin Brain/Model Definitions
+// 1.20.1	2023-08-05T16:42:42.3273963	Goblin Brain/Model Definitions
 a683119bfadec89e153d7eccc0b830115de08b65 assets\goblinbrain\models\item\raw_silver.json
 c65f81fba6575b32fb71a0c2f448192df7e58a1b assets\goblinbrain\models\item\copper_axe.json
 6a22d92b230df47644c64eeb90b08f8917f137dd assets\goblinbrain\models\item\raw_mythril_block.json
@@ -6,8 +6,8 @@ c0a1deeac224ec6ba348c27ba2ddcb631f7d44c1 assets\goblinbrain\blockstates\mythril_
 08a6297e892b7559a6f59a663ae48dcdeb0eb426 assets\goblinbrain\models\block\mythril_block.json
 0fb64ad519308297d24736c4a6ac90d25e858df6 assets\goblinbrain\blockstates\hallowed_block.json
 8c3486359dee9d8342a25a278ab0d3628d28e0ce assets\goblinbrain\models\item\mythril_block.json
-a93e4b571cae1afcbc38d2b9c2d0c3473dc53917 assets\goblinbrain\blockstates\ruby_block.json
 3911bd57642a4f442a8bc0964e95bc740dd5227d assets\goblinbrain\models\item\steel_axe.json
+a93e4b571cae1afcbc38d2b9c2d0c3473dc53917 assets\goblinbrain\blockstates\ruby_block.json
 963ee4a1b9e185d2eca21fe6265d141065b9f2c5 assets\goblinbrain\models\item\hallowed_helmet.json
 6b2855a5cfd9f99c3a1cba4506dc4758acd20319 assets\goblinbrain\models\item\bronze_leggings.json
 162ea294278ddb5cfd16b7d1f57c51a04598b2cb assets\goblinbrain\models\item\ruby.json
@@ -16,8 +16,8 @@ a93e4b571cae1afcbc38d2b9c2d0c3473dc53917 assets\goblinbrain\blockstates\ruby_blo
 a88edf90b14b289eb8f058594cf01b9c1b523da5 assets\goblinbrain\blockstates\tin_block.json
 cc35dbd394e32425486dac8ed70595f74d53fcf9 assets\goblinbrain\models\item\mythril_ingot.json
 8ee1bd3ac2e2f15c9a7dbfbb9687a2254c9a9862 assets\goblinbrain\models\block\raw_mythril_block.json
-3bb27201ed1e8fd7643ff36eee2904dd546a2af8 assets\goblinbrain\models\item\silver_boots.json
 84c368255421c79e91a03ef47391a02ea2fbb109 assets\goblinbrain\models\item\bronze_shovel.json
+3bb27201ed1e8fd7643ff36eee2904dd546a2af8 assets\goblinbrain\models\item\silver_boots.json
 6531fd07981494ed12a2ac2a9baa15ca689441ef assets\goblinbrain\models\item\ruby_boots.json
 b40b8dbe986b8987c2e0389a948ec87d1f983f87 assets\goblinbrain\models\item\raw_silver_block.json
 8525bf6d6892e357fb917355816ea97d56d68001 assets\goblinbrain\models\block\raw_silver_block.json
@@ -76,8 +76,8 @@ fb64330ea198bc8a053856b7714256bcdb1a3a1a assets\goblinbrain\models\item\ruby_ore
 061560cb418fdea0d5863399432831dcee8aba4b assets\goblinbrain\models\item\silver_shovel.json
 5242c6b8ac05df97811bb5f96ff7cd8cc2c27da3 assets\goblinbrain\models\item\silver_block.json
 6a95e2fcfb7f846262ecaaeb7c951068d0593d92 assets\goblinbrain\models\item\mythril_dust.json
-59020706e7b7c01aeb179ca232f70ff4fe011680 assets\goblinbrain\models\item\mythril_axe.json
 8f81eb91e19a769e037a4cdfe5dc9f1673edb4e0 assets\goblinbrain\models\item\ruby_hoe.json
+59020706e7b7c01aeb179ca232f70ff4fe011680 assets\goblinbrain\models\item\mythril_axe.json
 f1a3be8bda05a47440bbd260f24766852445deb7 assets\goblinbrain\models\item\silver_dust.json
 eed24bcff89e2c589ed8afd294ac902546750fcb assets\goblinbrain\models\item\copper_pickaxe.json
 b4f0f88a978f335c696fe2ba099665f2426be66d assets\goblinbrain\models\item\ruby_chestplate.json

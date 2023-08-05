@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_silver_ingot": {
+    "has_bronze_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:silver_ingot"
+              "goblinbrain:bronze_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:silver_axe_right"
+        "recipe": "goblinbrain:bronze_axe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_silver_ingot",
+      "has_bronze_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:silver_axe_right"
+      "goblinbrain:bronze_axe"
     ]
   },
   "sends_telemetry_event": false

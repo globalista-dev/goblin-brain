@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mythril_ingot": {
+    "has_steel_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:mythril_ingot"
+              "goblinbrain:steel_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mythril_hoe_left"
+        "recipe": "goblinbrain:steel_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_mythril_ingot",
+      "has_steel_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mythril_hoe_left"
+      "goblinbrain:steel_hoe"
     ]
   },
   "sends_telemetry_event": false

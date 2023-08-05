@@ -78,6 +78,41 @@ public class GPtBrLanguageProvider extends FabricLanguageProvider {
         t.add(RUBY_LEGGINGS, "Calças de rubi");
         t.add(RUBY_BOOTS, "Botas de rubi");
         t.add(HALLOWED_UPGRADE, "Melhoria de ferro-santo");
+        t.add(COPPER_SWORD, "Espada de cobre");
+        t.add(COPPER_PICKAXE, "Picareta de cobre");
+        t.add(COPPER_AXE, "Machado de cobre");
+        t.add(COPPER_SHOVEL, "Pá de cobre");
+        t.add(COPPER_HOE, "Enxada de cobre");
+        t.add(SILVER_SWORD, "Espada de prata");
+        t.add(SILVER_PICKAXE, "Picareta de prata");
+        t.add(SILVER_AXE, "Machado de prata");
+        t.add(SILVER_SHOVEL, "Pá de prata");
+        t.add(SILVER_HOE, "Enxada de prata");
+        t.add(MYTHRIL_SWORD, "Espada de mithril");
+        t.add(MYTHRIL_PICKAXE, "Picareta de mithril");
+        t.add(MYTHRIL_AXE, "Machado de mithril");
+        t.add(MYTHRIL_SHOVEL, "Pá de mithril");
+        t.add(MYTHRIL_HOE, "Enxada de mithril");
+        t.add(BRONZE_SWORD, "Espada de bronze");
+        t.add(BRONZE_PICKAXE, "Picareta de bronze");
+        t.add(BRONZE_AXE, "Machado de bronze");
+        t.add(BRONZE_SHOVEL, "Pá de bronze");
+        t.add(BRONZE_HOE, "Enxada de bronze");
+        t.add(STEEL_SWORD, "Espada de aço");
+        t.add(STEEL_PICKAXE, "Picareta de aço");
+        t.add(STEEL_AXE, "Machado de aço");
+        t.add(STEEL_SHOVEL, "Pá de aço");
+        t.add(STEEL_HOE, "Enxada de aço");
+        t.add(RUBY_SWORD, "Espada de rubi");
+        t.add(RUBY_PICKAXE, "Picareta de rubi");
+        t.add(RUBY_AXE, " de rubi");
+        t.add(RUBY_SHOVEL, "Pá de rubi");
+        t.add(RUBY_HOE, "Enxada de rubi");
+        t.add(HALLOWED_SWORD, "Espada de ferro-santo");
+        t.add(HALLOWED_PICKAXE, "Picareta de ferro-santo");
+        t.add(HALLOWED_AXE, "Machado de ferro-santo");
+        t.add(HALLOWED_SHOVEL, "Pá de ferro-santo");
+        t.add(HALLOWED_HOE, "Enxada de ferro-santo");
     }
 
 

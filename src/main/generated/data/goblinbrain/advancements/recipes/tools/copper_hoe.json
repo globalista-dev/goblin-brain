@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bronze_ingot": {
+    "has_copper_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:bronze_ingot"
+              "minecraft:copper_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:bronze_shovel_middle"
+        "recipe": "goblinbrain:copper_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_bronze_ingot",
+      "has_copper_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:bronze_shovel_middle"
+      "goblinbrain:copper_hoe"
     ]
   },
   "sends_telemetry_event": false

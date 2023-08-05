@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_mythril_ingot": {
+    "has_ruby": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:mythril_ingot"
+              "goblinbrain:ruby"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:mythril_shovel_middle"
+        "recipe": "goblinbrain:ruby_shovel"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_mythril_ingot",
+      "has_ruby",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:mythril_shovel_middle"
+      "goblinbrain:ruby_shovel"
     ]
   },
   "sends_telemetry_event": false

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ruby": {
+    "has_bronze_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "goblinbrain:ruby"
+              "goblinbrain:bronze_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:ruby_axe_right"
+        "recipe": "goblinbrain:bronze_hoe"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_ruby",
+      "has_bronze_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:ruby_axe_right"
+      "goblinbrain:bronze_hoe"
     ]
   },
   "sends_telemetry_event": false
